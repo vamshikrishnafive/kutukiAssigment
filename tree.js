@@ -22,7 +22,6 @@ function treeArrangement(array) {
         result.push(smallNumbers);
         result.push(secondHalf[index]);
     });
-
     return result;
 }
 console.log(treeArrangement([10, 20, 8, 4, 19, 7, 16]))
